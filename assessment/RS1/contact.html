@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+    <head>
+    <title>Home Page</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Praetorian</h1>
+            <nav>
+                <a href="home.html" target="_self">Home</a>
+                <a href="menu.html" target="_self">Menu</a>
+                <a href="contact.html" target="_self">Contact Us</a>
+            </nav>
+        </header>
+        
+        <main>
+            <form method="post" action="">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone" required>
+                </div>
+                <div>
+                    <label for="reasonforinquiry">Reason for Inquiry:</label>
+                    <select name="reasons">
+                        <option value="catering">Catering</option>
+                        <option value="private_party">Private Party</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <lavbel for="additionalinformation">Additional Information:</lavbel>
+                    <textarea name="additonalinformation" id="additionalinformation" rows="6" cols="25"></textarea>
+                </div>
+                <div>
+                    Have you been to the restaurant?
+                    <input type="radio" name="haveyoubeen?" value="no" id="no" checked>
+                    <label for="no">No</label>
+                    <input type="radio" name="haveyoubeen?" value="yes" id="yes">
+                    <label for="yes">Yes</label>
+                </div>
+                <div>
+                    Best days to contact you:
+                    <input type="checkbox" name="mon" id="mon">
+                    <label for="mon">Mon</label>
+                    <input type="checkbox" name="tues" id="tues">
+                    <label for="mon">Tues</label>
+                    <input type="checkbox" name="wed" id="wed">
+                    <label for="mon">Wed</label>
+                    <input type="checkbox" name="thur" id="thur">
+                    <label for="mon">Thur</label>
+                    <input type="checkbox" name="fri" id="fri">
+                    <label for="mon">Fri</label>
+                </div>
+                <div>
+                    <input type="submit" value="Send">
+                </div>
+        
+            </form>
+
+    </body>
+
+    <footer>
+        <address>	
+            1 Owl City<br>
+            Nue, Arizona X1Y2Z3<br>
+            1-337-668-3663
+        </address>
+    </footer>    
+</html>
