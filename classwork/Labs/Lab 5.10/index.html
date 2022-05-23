@@ -4,28 +4,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles.css">
 <script src="script.js" defer></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-crossorigin="anonymous"></script>
+
 
 <body>
    <header>
       <h1>Mediterranian Vacations</h1>
    </header>
-   <nav>
-      <ul>
-         <li><a href="#featured">Featured Packages</a></li>
-         <li><a href="#exotic">Exotic Vacations</a></li>
-         <li><a href="#historic">Historic Locations</a></li>
-         <li><a href="#contact">Contact Us</a></li>
+   <nav class="container-fluid">
+      <ul class="row">
+         <li class="col-md"><a href="#featured">Featured Packages</a></li>
+         <li class="col-md"><a href="#exotic">Exotic Vacations</a></li>
+         <li class="col-md"><a href="#historic">Historic Locations</a></li>
+         <li class="col-md"><a href="#contact">Contact Us</a></li>
       </ul>
    </nav>
-   <div id="benefits">
-      <div>
+   <div id="benefits" class="container">
+      <div class="row">
+         <div class="col-sm">
          <div class="benefits-inner-container">
             <div>
                <img src="checkmark.png" alt="checkmark">
@@ -35,6 +30,8 @@ crossorigin="anonymous"></script>
                the most bang for your buck.
             </div>
          </div>
+         </div>
+         <div class="col-sm">
          <div class="benefits-inner-container">
             <div>
                <img src="checkmark.png" alt="checkmark">
@@ -44,7 +41,9 @@ crossorigin="anonymous"></script>
                and qualified tour guides.
             </div>
          </div>
-         <div class="benefits-inner-container">
+      </div>
+         <div class="col-sm">
+         <div class="benefits-inner-container" >
             <div>
                <img src="checkmark.png" alt="checkmark">
             </div>
@@ -53,6 +52,7 @@ crossorigin="anonymous"></script>
                at any time for a full refund.
             </div>
          </div>
+      </div>
       </div>
    </div>
 
@@ -81,13 +81,13 @@ crossorigin="anonymous"></script>
 
       <section id="exotic">
          <h2>Exotic Vacations</h2>
-         <div>
-            <div>
-               <div>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg">
                   <img src="greece_600.jpg" alt="Arial view of Santorini" class="img-fluid rounded">
                </div>
                <div>
-                  <div>
+                  <div class="col-lg">
                      <h3>Greece</h3>
                      <p>Enjoy the scenic, peaceful Greek island of <strong>Santorini</strong>.
                         Take a cruise, soak in the sun, and explore the
@@ -104,13 +104,13 @@ crossorigin="anonymous"></script>
 
       <section id="historic">
          <h2>Historic Locations</h2>
-         <div>
-            <div>
-               <div>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg">
                   <img src="israel_600.jpg" alt="Jerusalem city scape" class="img-fluid rounded">
                </div>
                <div>
-                  <div>
+                  <div class="col-lg">
                      <h3>Israel</h3>
                      <p>Explore Israel's holy city of <strong>Jerusalem</strong>.
                         Visit the <strong>Dome of the Rock</strong>,
@@ -193,6 +193,15 @@ crossorigin="anonymous"></script>
          &copy; 2020 Mediterranian Vacations
       </p>
    </footer>
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+   integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+   crossorigin="anonymous">
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+   crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+   integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+   crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -76,3 +76,16 @@ footer {
    margin-left: 10px;
    margin-right: 20px;
 }
+
+
+
+@media screen and (min-width: 576px){
+  nav li{
+   display: inline;}
+}
+
+@media screen and (min-width: 768px){
+   .row{
+   display: flex;
+   flex-direction: row;}
+}
